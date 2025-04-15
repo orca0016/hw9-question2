@@ -45,3 +45,11 @@ position: relative;
     outline: none;
     border-bottom: 1px solid #0584eb;
 }
+
+.eye-style{
+    color: #0584eb;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1.3rem;
+}
