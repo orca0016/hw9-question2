@@ -3,3 +3,62 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+.container{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 ;
+}
+.container h1{
+    font-size: 4.5rem;
+    font-weight: normal;
+}
+.container p{
+    text-align: center;
+    color: #868a8d;
+    font-size: 1.4rem;
+}
+.message{
+    color: #868a8d;
+    
+}
+#myform{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.input-container{
+    width: 100%;
+position: relative;
+}
+
+#password-input{
+    width: 100%;
+    border: none;
+    height: 2rem;
+    font-size: 1.5rem;
+    outline: none;
+    border-bottom: 1px solid #0584eb;
+}
+
+.eye-style{
+    color: #0584eb;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1.3rem;
+}
+.label-input{
+    color: #0584eb;
+}
+.error-text{
+    color: red ;
+}
+.input-error{
+    border-bottom:1px solid red !important;
+}

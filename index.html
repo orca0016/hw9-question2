@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>password indicator</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+  </head>
+  <body>
+    <div class="container">
+      <h1>Change the password</h1>
+      <p class="description">it is 2020, but password is still a thing</p>
+
+      <form id="myform">
+        <label for="password-input"  class="label-input">Enter password</label>
+        <div class="input-container">
+            <input type="text" id="password-input" >
+        </div>
+        <div class="message">
+            password input is empty
+        </div>
+      </form>
+    </div>
     <script src="./app.js"></script>
-</body>
+  </body>
 </html>
