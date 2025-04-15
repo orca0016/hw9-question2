@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>password indicator</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Change the password</h1>
+      <p class="description">it is 2020, but password is still a thing</p>
+
+      <form id="myform">
+        <label for="password-input">Enter password</label>
+        <input type="text" id="password-input" >
+        <div class="message">
+            password input is empty
+        </div>
+      </form>
+    </div>
     <script src="./app.js"></script>
-</body>
+  </body>
 </html>
